@@ -8,7 +8,7 @@ _start:
 	
 	; print hello GitHUB on screen
 	
-	mov rax, 1
+	mov al, 1
 	mov rdi, 1
 	mov rsi, hello_git
 	mov rdx, length
